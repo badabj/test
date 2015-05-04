@@ -1,5 +1,5 @@
 new github
-
+new2
 
 
 am start -n com.amlapp.update.otaupgrade/com.amlapp.update.otaupgrade.MainActivity
