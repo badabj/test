@@ -1,0 +1,126 @@
+am start -n com.amlapp.update.otaupgrade/com.amlapp.update.otaupgrade.MainActivity
+am start -n com.meson.videoplayer/com.meson.videoplayer.FileList
+
+am start -n com.hybroad.factoryTest/com.hybroad.factoryTest.FmActivity
+
+sudo adduser linhui
+sudo smbpasswd -a linhui
+sudo usermod -a -G sudo linhui
+
+echo 7 4 1 7 >/proc/sys/kernel/printk
+$(shell touch $(BUILDINFO_SH))
+NFCInitiated.ogg
+
+X10 X11
+Y16
+DV9 DV28 DV29
+Z0 Z1 Z7 Z8
+
+service.adb.tcp.port=5555
+X10 vs e
+X11 vs b
+Z0 vs a
+Z7 vs a
+Z8 vs c
+
+setprop nfc.app_log_level 5
+
+/* START bada@hybroad.com  Feature Patch 0011-MBOX-DEV-support_dual_diff_display-PD86062 */
+/* START bada@hybroad.com 20141118 Gamecast porting for sim card synchronize */
+
+logcat |grep config_defaultIME
+sqlite3 /data/data/com.android.providers.settings/databases/settings.db "select * from secure" |grep method
+
+sqlite3 /data/data/com.android.providers.settings/databases/settings.db "select * from system" 
+svn ci -m "解决因fd未关闭导致的加载大量图片闪退问题， 解决因合并版本导致的ListView选中阴影消失问题， 修复LCD快速模式下RGB颜色错误问题。"
+svn ci -m "上传timehold-base1114-sync1218稳定代码更新"
+svn ci -m "重构hybroad目录，编译方法见kitkat/how_to_compile.txt，加入lunch x35_01及x35_02 device目录。使其支持多型号产品，此后kernel配置文件使用个字型号命名。厂测输出两种型号apk"
+
+logcat |grep BootType 
+
+ubootenv.var.has.accelerometer
+
+24a7 2402
+
+
+
+logcat 2>&1 | tee /tmp/logcat.log
+
+
+
+cp /cache/recovery/log /tmp/log
+
+
+make ARCH=arm KERNELPATH=$ANDROID_PRODUCT_OUT/obj/KERNEL_OBJ CROSS_COMPILE=arm-linux-gnueabihf- clean debug
+
+insmod /tmp/sii8620drv.ko debug_level=3
+
+
+echo read c 0x202f > /sys/class/amlogic/debug
+echo write 0x7c003c02 c 0x2030 > /sys/class/amlogic/debug
+echo write 0x78480000 c 0x202f > /sys/class/amlogic/debug
+
+echo read c 0x2034 > debug
+echo read c 0x2032 > debug
+echo write 0x75e0 c 0x2032 > debug
+
+
+
+echo read c 0x2016 > debug
+
+echo write 0xef9ff8ff c 0x2015 > debug
+echo write 0xeffcfa08 c 0x2016 > debug
+echo write 0xfffcfa08 c 0x2016 > debug
+
+echo write 0x5400000 c 0x202f > /sys/class/amlogic/debug
+echo read c 0x200c > /sys/class/amlogic/debug
+echo write 0xffeff3ff c 0x200c > /sys/class/amlogic/debug
+echo write 0x1fffffff c 0x200d > /sys/class/amlogic/debug
+echo write 0x1ffffbff c 0x200d > /sys/class/amlogic/debug
+
+echo read c 0x200f > debug
+echo write 0xfffffffc c 0x200f > debug
+
+echo read c 0x2010 > debug
+echo write 0xfffffffc c 0x2010 > debug
+echo write 0xffffffff c 0x2010 > debug
+
+
+meson8b_x55_01.dtd
+
+x55_01
+
+/* START bada@hybroad.com AP6330 BT FM patch */
+
+
+
+
+
+svn ci -m "合入fm功能，添加编译海博输入法选项"
+
+
+
+203194996
+OTTUpgradepackage
+
+
+mmcinfo
+fatload mmc 0 12000000 u-boot.bin
+store rom_write 12000000 0 65000
+
+# START bada@hybroad.com boot logo
+svn ci -m "X35-01 X35-02 uboot增加LCD开机logo选项。开机2秒左右显示单张logo图。"
+
+/home/bada/amlogic/1_svn/kitkat/uboot/build/tools/./bmp_logo logos/booting.bmp >/home/bada/amlogic/1_svn/kitkat/uboot/build/include/bmp_logo.h
+
+045e 028e 
+
+root@x35_02:/ # hyenv set SerialNumber X35010001504010012245586
+root@x35_02:/ # hyenv set MacAddr 0C:56:5C:BA:DA:52
+
+root@x35_02:/ # hyenv set SerialNumber X350100015040100XXXXXXXX
+root@x35_02:/ # hyenv set MacAddr 0C:56:5C:XX:XX:XX
+
+
+
+logo size 720p; video open; video clear; video dev open 720p;imgread pic logo bootup 0x13000000; bmp display 0x1302c330; bmp scale;setenv outputmode 720p;sav
