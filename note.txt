@@ -1,3 +1,7 @@
+new github
+
+
+
 am start -n com.amlapp.update.otaupgrade/com.amlapp.update.otaupgrade.MainActivity
 am start -n com.meson.videoplayer/com.meson.videoplayer.FileList
 
